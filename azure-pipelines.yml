@@ -14,7 +14,7 @@ steps:
   inputs:
     azureSubscription: 'AzureRmPipeline-conn'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'AzureRmPipeline-rg'
+    resourceGroupName: 'linda-playground'
     location: 'East US'
     templateLocation: 'Linked artifact'
     csmFile: 'azure-quickstart-templates/101-storage-account-create/azuredeploy.json'
